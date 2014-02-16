@@ -1,0 +1,93 @@
+<div class="jumbotron">
+
+    <h1>Angular About</h1>
+    <p>{{ data }}</p>
+
+
+    <ul class="nav nav-pills">
+
+        <li>
+
+            <a href="#">Home</a>
+        </li>
+
+        <li>
+
+            <a href="#/about">About</a>
+        </li>
+
+        <li>
+
+            <a href="#/inbox/trin">Inbox</a>
+        </li>
+
+
+        <li>
+
+            <a href="#/contact">Contact</a>
+        </li>
+
+
+
+    </ul>
+
+</div>
+
+   <div class="row">
+
+       <div ng-controller="AboutController">
+
+       <div class="col-md-8">
+            <div ng-show="aboutHome">
+           <h2>About Prototype</h2>
+
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ligula magna, vulputate ut nisl sit amet, lobortis egestas dui. Ut dapibus mi a dignissim tincidunt. Nullam hendrerit nisi leo, vitae gravida orci mattis sed. Maecenas mollis, mi ut auctor suscipit, tellus nulla vulputate turpis, vitae facilisis sapien sapien non velit.
+               Nunc in velit quam. Vivamus vel risus est. Etiam porta id odio et malesuada. Suspendisse mi mi, cursus vel dui ut, interdum sodales massa. Ut non ipsum non ligula facilisis tincidunt.</p> <p>Nam magna odio, aliquet ut consequat in, dictum id magna. Ut sapien urna, dignissim eget libero sit amet, bibendum sollicitudin ipsum. Maecenas bibendum orci purus,
+               in scelerisque lectus pharetra sit amet. Nulla convallis nisl et turpis consectetur, ut consequat orci ultrices. Proin blandit enim felis, ultrices rutrum eros varius ac. Phasellus eu tellus nulla.
+
+               Integer feugiat sem ut ipsum porttitor dignissim. Curabitur ante erat, iaculis sed fermentum eu, scelerisque ut lectus. Nam ut molestie orci. Proin est arcu, aliquet at sem ac, blandit hendrerit nibh. Sed leo sem, luctus nec varius et, ultricies sed nisi. Nulla euismod malesuada mi, et interdum justo ultrices eu. Integer luctus fermentum quam a semper. Nullam condimentum augue odio, id aliquet sem porta non. Nam blandit convallis orci, in lobortis nisi porttitor nec. Vivamus id sapien at lacus feugiat scelerisque. Morbi ultricies non diam vitae imperdiet. Nulla facilisi. Etiam pulvinar tortor mauris, ac imperdiet diam imperdiet ac. Sed dictum tempus dui eu convallis. In ultrices eget purus gravida sagittis. Etiam sed quam elit.</p>
+
+            </div>
+
+
+           <div ng-show="aboutTerry">
+           <h2>About Terry</h2>
+
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ligula magna, vulputate ut nisl sit amet, lobortis egestas dui. Ut dapibus mi a dignissim tincidunt. Nullam hendrerit nisi leo, vitae gravida orci mattis sed. Maecenas mollis, mi ut auctor suscipit, tellus nulla vulputate turpis, vitae facilisis sapien sapien non velit.
+               Nunc in velit quam. Vivamus vel risus est. Etiam porta id odio et malesuada. Suspendisse mi mi, cursus vel dui ut, interdum sodales massa. Ut non ipsum non ligula facilisis tincidunt.</p>
+       </div>
+
+           <div ng-show="aboutMike">
+               <h2>About Mike</h2>
+
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ligula magna, vulputate ut nisl sit amet, lobortis egestas dui. Ut dapibus mi a dignissim tincidunt. Nullam hendrerit nisi leo, vitae gravida orci mattis sed. Maecenas mollis, mi ut auctor suscipit, tellus nulla vulputate turpis, vitae facilisis sapien sapien non velit.
+                   Nunc in velit quam. Vivamus vel risus est. Etiam porta id odio et malesuada. Suspendisse mi mi, cursus vel dui ut, interdum sodales massa. Ut non ipsum non ligula facilisis tincidunt.</p>
+           </div>
+
+
+       </div>
+
+
+       <div class="col-md-4">
+
+           <h2>Our Staff</h2>
+
+
+           <ul class="nav nav-pill">
+               <li><a href="" ng-click="setAbout(1)">About Us</a> </li>
+               <li><a href="" ng-click="setAbout(2)">Terry Pittman</a> </li>
+               <li><a href="" ng-click="setAbout(3)">Mike Mcdonahue</a> </li>
+
+
+           </ul>
+
+
+       </div>
+
+
+
+       </div>
+
+
+
+   </div>
